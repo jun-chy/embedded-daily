@@ -1,2 +1,1 @@
-# embedded-daily
-每日嵌入式相关 GitHub 项目介绍与代码分析
+# embedded-daily\n\n每日嵌入式相关 GitHub 项目介绍与代码分析。\n\n## 目录结构\n\n- esp32/ - ESP32/ESP8266 相关项目\n- stm32/ - STM32 相关项目\n- arduino/ - Arduino 相关项目\n- rp2040/ - RP2040/Raspberry Pi Pico 相关项目\n- nrf52/ - Nordic nRF52 相关项目\n- linux-embedded/ - 嵌入式 Linux 相关项目\n- other/ - 其他嵌入式项目
