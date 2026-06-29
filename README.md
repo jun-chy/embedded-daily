@@ -23,6 +23,7 @@ embedded-daily/
 ├── esp32/                     # ESP32 / ESP8266 相关项目
 │   └── 2026-06-28-*.md
 ├── stm32/                     # STM32 相关项目
+│   └── 2026-06-29-*.md
 ├── arduino/                   # Arduino 相关项目
 ├── rp2040/                    # RP2040 / Raspberry Pi Pico 相关项目
 │   └── 2026-06-28-*.md
@@ -32,6 +33,13 @@ embedded-daily/
 ```
 
 ## 已发布文章
+
+### 2026-06-29
+
+| 日期 | 平台 | 项目 | Stars | 简介 |
+|------|------|------|-------|------|
+| 2026-06-29 | STM32 | [tinyrtos](stm32/2026-06-29-tinyrtos.md) | 11 | 从零手写的 ARM Cortex-M 抢占式 RTOS 内核，PendSV 上下文切换 + 优先级调度 + HardFault 诊断，内核仅 9KB |
+| 2026-06-29 | STM32 | [Filum](stm32/2026-06-29-filum.md) | 28 | MCU 级联邦学习框架，STM32 + LoRa 上的边缘 AI 训练，Top-k 稀疏 Q8 量化 + 高斯差分隐私 + ChaCha20 加密 |
 
 ### 2026-06-28
 
