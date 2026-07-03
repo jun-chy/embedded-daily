@@ -34,6 +34,13 @@ embedded-daily/
 
 ## 已发布文章
 
+### 2026-07-03
+
+| 日期 | 平台 | 项目 | Stars | 简介 |
+|------|------|------|-------|------|
+| 2026-07-03 | ESP32 | [Espframe](esp32/2026-07-03-espframe-immich-photo-frame.md) | 182 | ESP32-P4 私有云相框固件，直连 Immich 照片库，加权随机选图 + 3-Slot 幻灯片状态机 + 流式多格式解码（JPEG/PNG/WebP）+ 竖图配对 |
+| 2026-07-03 | RP2040 | [Picoware](rp2040/2026-07-03-picoware.md) | 221 | RP2040/RP2350 迷你操作系统固件，视图栈导航 GUI + I2C 南桥驱动 + PIO QSPI PSRAM 扩展（DMA 双通道）+ GameBoy 模拟器 |
+
 ### 2026-07-01
 
 | 日期 | 平台 | 项目 | Stars | 简介 |
