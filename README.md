@@ -34,6 +34,13 @@ embedded-daily/
 
 ## 已发布文章
 
+### 2026-07-04
+
+| 日期 | 平台 | 项目 | Stars | 简介 |
+|------|------|------|-------|------|
+| 2026-07-04 | ESP32 | [esp32-weather-epd](esp32/2026-07-04-esp32-weather-epd.md) | 6,165 | ESP32 超低功耗电子纸天气显示器，14μA 休眠 + 四级电池保护 + 分钟对齐智能休眠 + OpenWeatherMap API + BME280 室内传感 |
+| 2026-07-04 | STM32 | [MESC_Firmware](stm32/2026-07-04-mesc-firmware.md) | 257 | STM32 开源 FOC 电机控制固件，全自动参数辨识（R/L/磁链/HFI/死区）+ 多观测器 + 弱磁/MTPA + FreeRTOS + 运行时变量调节 |
+
 ### 2026-07-03
 
 | 日期 | 平台 | 项目 | Stars | 简介 |
