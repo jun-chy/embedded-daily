@@ -34,6 +34,12 @@ embedded-daily/
 
 ## 已发布文章
 
+### 2026-07-08
+
+| 日期 | 平台 | 项目 | Stars | 简介 |
+|------|------|------|-------|------|
+| 2026-07-08 | ESP32 | [Project Aura AQ](esp32/2026-07-08-project-aura.md) | 683 | ESP32-S3 全功能空气质量监测站，SEN66 多合一传感 + 协议级 I2C 驱动（CRC8/VOC 状态持久化/ASC 校准）+ 两级 Safe Boot 防变砖 + GP8403 DAC 智能通风需求算法 + MQTT/Home Assistant 自动发现 |
+
 ### 2026-07-04
 
 | 日期 | 平台 | 项目 | Stars | 简介 |
