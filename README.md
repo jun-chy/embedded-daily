@@ -34,6 +34,13 @@ embedded-daily/
 
 ## 已发布文章
 
+### 2026-07-12
+
+| 日期 | 平台 | 项目 | Stars | 简介 |
+|------|------|------|-------|------|
+| 2026-07-12 | nRF52 | [InfiniTime](nrf52/2026-07-12-infinitime-pinetime.md) | 3,308 | PineTime 智能手表开源固件，nRF52832 + FreeRTOS + NimBLE BLE 协议栈 + LVGL UI 框架 + ST7789 LCD 驱动 + BMA421 加速度计 + HRS3300 心率传感 + MCUBoot OTA 升级 + NoInit 内存持久化 + GPIOTE 中断消息队列 |
+| 2026-07-12 | STM32 | [STM32 Bootloader](stm32/2026-07-12-stm32-bootloader.md) | 1,042 | STM32 可定制 IAP 引导加载器，双 Bank Flash 擦除 + 双字编程 + 硬件 CRC32 校验 + WRP/PCROP/RDP 三级写保护 + 向量表重定位跳转 + 系统存储器跳转 + FatFs SD 卡固件更新 + SCons/IAR/GCC 三工具链支持 |
+
 ### 2026-07-11
 
 | 日期 | 平台 | 项目 | Stars | 简介 |
