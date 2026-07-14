@@ -34,6 +34,12 @@ embedded-daily/
 
 ## 已发布文章
 
+### 2026-07-14
+
+| 日期 | 平台 | 项目 | Stars | 简介 |
+|------|------|------|-------|------|
+| 2026-07-14 | 其他 | [µCNC](other/2026-07-14-ucnc-universal-cnc-firmware.md) | 445 | 通用 CNC 数控固件，AVR/ESP32/STM32/RP2040/SAMD21/LPC176x 多平台 HAL + 6 轴运动控制 + Grbl 协议兼容 + 梯形/S 曲线加减速 + 半角恒等式结点速度优化 + DSS 动态步进过采样 + Bresenham 插补 + 背隙补偿 + 模块事件钩子 + Flash EEPROM 仿真 |
+
 ### 2026-07-13
 
 | 日期 | 平台 | 项目 | Stars | 简介 |
