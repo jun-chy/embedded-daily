@@ -34,6 +34,13 @@ embedded-daily/
 
 ## 已发布文章
 
+### 2026-07-15
+
+| 日期 | 平台 | 项目 | Stars | 简介 |
+|------|------|------|-------|------|
+| 2026-07-15 | ESP32 | [OpenC6 BIOS v1.1-ME](esp32/2026-07-15-openc6-bios.md) | 287 | ESP32-C6 开源模块化 BIOS/Payload 固件平台深度更新，ABI 系统调用跳转表（20+ API）+ LP-Core 管理引擎（硬件看门狗 + 智能电源按钮 + SchedUtil 动态调频 + 热保护）+ 日志结构循环文件系统（GC 垃圾回收）+ A/B OTA 防变砖 + PXE 网络启动 + 裸机 Payload 示例 + NVRAM 配置架构 |
+| 2026-07-15 | ESP32 | [P4KVM](esp32/2026-07-15-p4kvm.md) | 94 | ESP32-P4 IP KVM 方案，TC358743 HDMI→MIPI CSI-2 桥接 + 1080p RGB888 采集 + 硬件 JPEG 编码 + HTTP multipart/x-mixed-replace MJPEG 流 + WebSocket 键鼠控制协议 + USB HID 分段发送与消息合并 + 以太网 mDNS + HDMI 热插拔自动恢复 |
+
 ### 2026-07-14
 
 | 日期 | 平台 | 项目 | Stars | 简介 |
