@@ -34,6 +34,13 @@ embedded-daily/
 
 ## 已发布文章
 
+### 2026-07-18
+
+| 日期 | 平台 | 项目 | Stars | 简介 |
+|------|------|------|-------|------|
+| 2026-07-18 | ESP32 | [Bramble](esp32/2026-07-18-bramble-esp32-lora-mesh.md) | 1 | ESP32-S3 隐私优先 LoRa 网状网络固件，SX1262 + ESP-IDF + 双 substrate 路由（反应式 AODV 默认/泛洪可选）+ wire v4 认证流量（network-key HMAC）+ fail-closed 未配钥静默 + 单一 TX 门控路径（真实 ToA 计费 + LBT 先听后说 + beacon 预留）+ 四层 token bucket 空口预算（ETSI 任意窗口 cap/2 合规）+ 三级可靠性（0/3/8 重传 + ±25% 抖动退避）+ Ed25519 加密身份（地址=SHA-256 公钥前 4 字节）+ AES-256-GCM 端到端 DM（X25519 quad-DH + HKDF 棘轮前向保密）+ packet_id LRU 去重 + 离线邮箱 + 三档隐私位置 + 浏览器烧录 |
+| 2026-07-18 | STM32 | [Alpha-Flight 2.X](stm32/2026-07-18-alpha-flight-stm32-quadcopter.md) | 1 | STM32F405 四旋翼飞控固件，双 ICM-42688P SPI 冗余 + TIM7 硬件触发 SPI1 DMA 连读（2ms/500Hz）+ DMA 完成中断软件中断触发 PID（NVIC_SetPendingIRQ）+ DSHOT600 四通道 TIM1 DMA Burst 并行输出（CCR1~CCR4 一次 update 写入）+ CRSF 状态机（USART2 DMA 循环 + 追赶指针消费 + 11-bit 通道位流解码 + CRC8 查表）+ 高频级联 PID（微分先行 + 动态反向计算抗饱和）+ 时间片轮询主循环（20ms 磁力计/100ms 安全/500ms 黑匣子）+ 倾角保护 + 低压停机 + IWDG 看门狗 + TPS54560 6S 电源隔离 + SPI 黑匣子临界区防撕裂 |
+
 ### 2026-07-17
 
 | 日期 | 平台 | 项目 | Stars | 简介 |
