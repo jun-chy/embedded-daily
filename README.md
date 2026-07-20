@@ -34,6 +34,12 @@ embedded-daily/
 
 ## 已发布文章
 
+### 2026-07-20
+
+| 日期 | 平台 | 项目 | Stars | 简介 |
+|------|------|------|-------|------|
+| 2026-07-20 | ESP32 | [AgentDeck](esp32/2026-07-20-agentdeck.md) | 154 | ESP32 AI 编码代理物理控制面板固件，FreeRTOS 双核架构（Core0 网络/Core1 UI）+ 串行/WiFi 双传输 + 射频停泊省 2.4GHz 带宽 + mDNS 零配置发现守护进程（优先 agent=daemon TXT 记录 + token 分发）+ WebSocket 指数退避重连（3s→8s 封顶）+ 跨核互斥量+环形出队队列线程安全（arduinoWebSockets 非线程安全）+ ArduinoJson 协议解析（state_update/usage_update/sessions_list/timeline）+ UTF-8 截断安全 + 生物态状态机（章鱼/小龙虾/霓虹灯鱼水族箱动画派生）+ 8 板 HAL 编译宏裁剪资源上限 + WiFiManager 非阻塞配网门户 + NTP 配额重置倒计时 + 双 OTA 分区远程升级 + IPS10 ESP-Hosted SDIO 断言规避 |
+
 ### 2026-07-18
 
 | 日期 | 平台 | 项目 | Stars | 简介 |
