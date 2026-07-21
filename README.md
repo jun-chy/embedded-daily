@@ -34,6 +34,12 @@ embedded-daily/
 
 ## 已发布文章
 
+### 2026-07-21
+
+| 日期 | 平台 | 项目 | Stars | 简介 |
+|------|------|------|-------|------|
+| 2026-07-21 | ESP32 | [ESP32-Plane-Radar](esp32/2026-07-21-esp32-plane-radar.md) | 791 | ESP32-C3 + 1.28" 圆形 GC9A01 实时 ADS-B 航空雷达固件，adsb.fi HTTPS REST 拉取 + ArduinoJson 流式分块解析（512B 缓冲 + 注入 wifiLoop 回调保活协议栈）+ 平面地球坐标变换（1°≈111km + atan2 方位角 + 像素映射）+ 双缓冲 Sprite 无闪烁渲染（112KB 离屏合成一次性 pushSprite）+ 航向三角符号（sin/cos 旋转向量）+ 速度矢量步进裁剪（0.05t 线性插值逼近圆边界 + 平方距离免开方）+ 量程外飞机边缘方位点设计 + 字段优先级回退容错（true_heading→mag→track→dir）+ alt_baro 联合类型判别 + WiFiManager 强制门户 + NVS 量程/位置/单位持久化 + BOOT 单按钮交互（短按切量程/长按 3s 重置）|
+
 ### 2026-07-20
 
 | 日期 | 平台 | 项目 | Stars | 简介 |
