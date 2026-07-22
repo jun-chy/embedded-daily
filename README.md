@@ -34,6 +34,12 @@ embedded-daily/
 
 ## 已发布文章
 
+### 2026-07-22
+
+| 日期 | 平台 | 项目 | Stars | 简介 |
+|------|------|------|-------|------|
+| 2026-07-22 | ESP32 | [NucleoOS](esp32/2026-07-22-nucleoos.md) | 40 | M5Stack Cardputer（ESP32-S3）Web 原生操作系统固件，512KB RAM 无 PSRAM 上实现完整 OS + 离线 AI 助手 ANIMA（L0/L1/L2 检索级联 + Matryoshka 二进制 Hamming popcount + 证据性弃权绝不虚构）+ 三运行时一致性（C 同一份编译为固件/WASM/PC 三目标奇偶校验门）+ 双界面架构（原生 240×135 UI + 浏览器桌面级 Web Shell WebGPU/WASM 重计算卸载）+ Solo 启动模式（RTC 标志跳过 httpd 18KB + mDNS 12KB 获取连续堆）+ 事件溯源总线（环形缓冲 + 双锁分离 SD I/O + NDJSON 日志轮转 + 栈拷贝防 use-after-overwrite）+ 端上 MFCC+DTW 语音命令（延迟加载引用计数 16KB）+ OTA A/B 回滚确认 + BLE 控制器 DRAM 回收 + 启动面包屑追踪 + 50+ 原生应用（游戏/安全实验室/媒体播放器）+ W5500 MACRAW L2/L3 以太网攻击引擎 |
+
 ### 2026-07-21
 
 | 日期 | 平台 | 项目 | Stars | 简介 |
