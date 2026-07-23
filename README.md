@@ -34,6 +34,12 @@ embedded-daily/
 
 ## 已发布文章
 
+### 2026-07-23
+
+| 日期 | 平台 | 项目 | Stars | 简介 |
+|------|------|------|-------|------|
+| 2026-07-23 | ESP32 | [ESP32 Bit Pirate](esp32/2026-07-23-esp32-bit-pirate.md) | 4360 | ESP32-S3 多协议硬件分析工具固件，Bus Pirate 理念 + 三 CLI 界面（USB 串口/Wi-Fi 浏览器 WebSocket/Cardputer 独立模式）+ 接口驱动依赖注入架构（40+ 纯虚接口 + DependencyProvider 装配）+ 23 协议模式（I2C/SPI/UART/1-Wire/2-Wire/3-Wire/CAN/JTAG/I2S/SubGHz/LoRa/RF24/蓝牙/Wi-Fi/以太网/RFID/红外/FM/蜂窝 SIM）+ ActionDispatcher 中央命令分发（别名展开/字节码指令/宏/重复/管道五级管线）+ WebSocketServer 帧两阶段读取 + UTF-8 净化 + 单客户端管理 + PinAnalyzer 逻辑分析仪（轮询边沿采样 + 脉冲环形缓冲 + 5ms 突发检测 + 上升沿周期提取 PWM/伺服）+ I2cController（scan/sniff/glitch/flood/jam/eeprom 转储）+ SubGhzController CC1101 RSSI 频谱扫描 + LittleFS HTTP 导入导出 + 10+ 板卡 PlatformIO 编译宏引脚映射 + Python 脚本自动化 |
+
 ### 2026-07-22
 
 | 日期 | 平台 | 项目 | Stars | 简介 |
