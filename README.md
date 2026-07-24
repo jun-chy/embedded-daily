@@ -34,6 +34,12 @@ embedded-daily/
 
 ## 已发布文章
 
+### 2026-07-24
+
+| 日期 | 平台 | 项目 | Stars | 简介 |
+|------|------|------|-------|------|
+| 2026-07-24 | 其他 | [SyntropicOS](other/2026-07-24-SyntropicOS.md) | 4 | 零开销协作式嵌入式 RTOS 框架，纯 C99 实现，protothread 协程（2 字节 RAM/任务，Duff's device `switch`/`__LINE__` 续点）+ 70+ 原生非阻塞状态机模块（DSP/FOC 电机控制/MQTT/HTTP/WebSocket/CLI/密码学）+ 协作式优先级调度器（round-robin + 等待重试 + tickless 深度睡眠）+ Q16.16 定点数学库（三角函数/矩阵代数/FFT/卡尔曼滤波，无浮点无 libm）+ 整数 PID 控制器（EMA 微分滤波 + 条件积分抗饱和 + 两步除法防截断）+ FOC 变换链（Clarke/Park/SVPWM 中心钳位）+ 工业协议（SAE J1939/CANopen/Modbus RTU-TCP/NMEA 0183）+ 零堆分配 + 跨平台移植（STM32F4 裸金属/ESP32 ESP-IDF/RP2040 Pico SDK/Arduino C++）+ ChaCha20-Poly1305/X25519/BLAKE2s 密码学 + WireGuard VPN（29KB） |
+
 ### 2026-07-23
 
 | 日期 | 平台 | 项目 | Stars | 简介 |
